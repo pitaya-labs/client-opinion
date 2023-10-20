@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <RootNamespace>Backend.Api</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -24,7 +25,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Backend.Application\Backend.Application.csproj" />
+      <ProjectReference Include="..\ClientOpinion.Application\ClientOpinion.Application.csproj" />
     </ItemGroup>
 
 </Project>

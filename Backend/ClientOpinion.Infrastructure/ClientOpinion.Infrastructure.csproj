@@ -4,6 +4,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>Backend.Infrastructure</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -11,8 +12,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Backend.Application\Backend.Application.csproj" />
-      <ProjectReference Include="..\Backend.Domain\Backend.Domain.csproj" />
+      <ProjectReference Include="..\ClientOpinion.Application\ClientOpinion.Application.csproj" />
+      <ProjectReference Include="..\ClientOpinion.Domain\ClientOpinion.Domain.csproj" />
     </ItemGroup>
 
 </Project>

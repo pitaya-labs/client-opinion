@@ -1,14 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Tests", "Backend.Tests\Backend.Tests.csproj", "{0AE7C4C3-877B-4A22-85A4-BD8D8EFD580F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientOpinion.Tests", "ClientOpinion.Tests\ClientOpinion.Tests.csproj", "{0AE7C4C3-877B-4A22-85A4-BD8D8EFD580F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Api", "Backend.Api\Backend.Api.csproj", "{225DCD37-61EC-4120-99EC-1FE997202EDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientOpinion.Api", "ClientOpinion.Api\ClientOpinion.Api.csproj", "{225DCD37-61EC-4120-99EC-1FE997202EDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Infrastructure", "Backend.Infrastructure\Backend.Infrastructure.csproj", "{4FCE4988-688E-43C8-AC17-990B0144A4B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientOpinion.Infrastructure", "ClientOpinion.Infrastructure\ClientOpinion.Infrastructure.csproj", "{4FCE4988-688E-43C8-AC17-990B0144A4B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Application", "Backend.Application\Backend.Application.csproj", "{4C8FAC85-66DC-4F1F-81A4-828565D91438}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientOpinion.Application", "ClientOpinion.Application\ClientOpinion.Application.csproj", "{4C8FAC85-66DC-4F1F-81A4-828565D91438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Domain", "Backend.Domain\Backend.Domain.csproj", "{6D2959EC-72A6-4E68-8FDF-2D9B47BF8227}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientOpinion.Domain", "ClientOpinion.Domain\ClientOpinion.Domain.csproj", "{6D2959EC-72A6-4E68-8FDF-2D9B47BF8227}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
