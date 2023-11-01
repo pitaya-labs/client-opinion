@@ -214,7 +214,7 @@ namespace Backend.Infrastructure.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "3f25cc02-9c9c-484d-ac29-a02e81b162a5", 0, "e8f3d093-7b7b-49de-b9bd-2978dc3e81b4", "user.test@email.com", true, false, null, null, null, "AQAAAAIAAYagAAAAEBjhEjGZVfi/5n0S9S8ronWPi0v/o/tR8YpayOlmZDPVx4XTro1Wrtf/hfN6Ga6pWw==", null, false, "c7e45c66-9876-4fe4-94cc-1d0385eb146f", false, "user.test@email.com" });
+                values: new object[] { "ebf183d9-5700-4de4-8568-d0553db3269f", 0, "308ead3e-9eab-4157-80b2-63d40d6d0408", "user.test@email.com", true, false, null, null, null, "AQAAAAIAAYagAAAAELmVVucNkxTEa/0agZDCioc+wqJmYVJCGQAkKOUkctVoVcGdZ+aswZ5d4lA44JS6sA==", null, false, "fcb8ff10-a1ac-44f5-97fb-8a7f28200c14", false, "user.test@email.com" });
 
             migrationBuilder.InsertData(
                 table: "Companies",
@@ -224,12 +224,12 @@ namespace Backend.Infrastructure.Migrations
             migrationBuilder.InsertData(
                 table: "Feedbacks",
                 columns: new[] { "Id", "Comment", "CompanyId", "Name", "Rating" },
-                values: new object[] { new Guid("ebb5a260-3c9f-41c2-86ca-c521fdc854c3"), "the care with my dog was amazing", 1, "Awesome service", 5 });
+                values: new object[] { new Guid("2bf08769-cb41-40ff-a502-6d8dda4022b6"), "the care with my dog was amazing", 1, "Awesome service", 5 });
 
             migrationBuilder.InsertData(
                 table: "Profiles",
                 columns: new[] { "Id", "AppUserId", "FullName" },
-                values: new object[] { 1, "3f25cc02-9c9c-484d-ac29-a02e81b162a5", "Alberto Ramirez" });
+                values: new object[] { 1, "ebf183d9-5700-4de4-8568-d0553db3269f", "Alberto Ramirez" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

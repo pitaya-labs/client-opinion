@@ -89,15 +89,15 @@ namespace Backend.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "3f25cc02-9c9c-484d-ac29-a02e81b162a5",
+                            Id = "ebf183d9-5700-4de4-8568-d0553db3269f",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e8f3d093-7b7b-49de-b9bd-2978dc3e81b4",
+                            ConcurrencyStamp = "308ead3e-9eab-4157-80b2-63d40d6d0408",
                             Email = "user.test@email.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEBjhEjGZVfi/5n0S9S8ronWPi0v/o/tR8YpayOlmZDPVx4XTro1Wrtf/hfN6Ga6pWw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELmVVucNkxTEa/0agZDCioc+wqJmYVJCGQAkKOUkctVoVcGdZ+aswZ5d4lA44JS6sA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "c7e45c66-9876-4fe4-94cc-1d0385eb146f",
+                            SecurityStamp = "fcb8ff10-a1ac-44f5-97fb-8a7f28200c14",
                             TwoFactorEnabled = false,
                             UserName = "user.test@email.com"
                         });
@@ -162,7 +162,7 @@ namespace Backend.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("ebb5a260-3c9f-41c2-86ca-c521fdc854c3"),
+                            Id = new Guid("2bf08769-cb41-40ff-a502-6d8dda4022b6"),
                             Comment = "the care with my dog was amazing",
                             CompanyId = 1,
                             Name = "Awesome service",
@@ -198,7 +198,7 @@ namespace Backend.Infrastructure.Migrations
                         new
                         {
                             Id = 1,
-                            AppUserId = "3f25cc02-9c9c-484d-ac29-a02e81b162a5",
+                            AppUserId = "ebf183d9-5700-4de4-8568-d0553db3269f",
                             FullName = "Alberto Ramirez"
                         });
                 });

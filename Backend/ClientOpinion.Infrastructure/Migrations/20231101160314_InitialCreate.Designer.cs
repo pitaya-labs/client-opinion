@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Backend.Infrastructure.Migrations
 {
     [DbContext(typeof(BackendContext))]
-    [Migration("20231031233258_InitialCreate")]
+    [Migration("20231101160314_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -92,15 +92,15 @@ namespace Backend.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "a8fd219a-89b3-4b1b-a616-faeda289e2de",
+                            Id = "ebf183d9-5700-4de4-8568-d0553db3269f",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "820b79ef-62c1-48ec-bb64-176433a1afeb",
+                            ConcurrencyStamp = "308ead3e-9eab-4157-80b2-63d40d6d0408",
                             Email = "user.test@email.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAELIrXnTxDLcVOz0SNTCEqWD9MsB23+XOECT5pna7s4mYQlNr7wGdH5cNf0udZnhSxQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELmVVucNkxTEa/0agZDCioc+wqJmYVJCGQAkKOUkctVoVcGdZ+aswZ5d4lA44JS6sA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "c174aa68-f53f-4391-9951-ac939298b667",
+                            SecurityStamp = "fcb8ff10-a1ac-44f5-97fb-8a7f28200c14",
                             TwoFactorEnabled = false,
                             UserName = "user.test@email.com"
                         });
@@ -165,7 +165,7 @@ namespace Backend.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("618d376f-d07b-4996-9af4-3549c5050140"),
+                            Id = new Guid("2bf08769-cb41-40ff-a502-6d8dda4022b6"),
                             Comment = "the care with my dog was amazing",
                             CompanyId = 1,
                             Name = "Awesome service",
@@ -201,7 +201,7 @@ namespace Backend.Infrastructure.Migrations
                         new
                         {
                             Id = 1,
-                            AppUserId = "a8fd219a-89b3-4b1b-a616-faeda289e2de",
+                            AppUserId = "ebf183d9-5700-4de4-8568-d0553db3269f",
                             FullName = "Alberto Ramirez"
                         });
                 });
