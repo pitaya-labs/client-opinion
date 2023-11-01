@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Backend.Domain.Feedback;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Backend.Infrastructure.Feedback;
@@ -11,6 +12,8 @@ public class FeedbackConfiguration: IEntityTypeConfiguration<Domain.Feedback.Fee
         builder.Property(x => x.Id).ValueGeneratedOnAdd();
         builder.Property(x => x.Name).HasMaxLength(200);
         builder.Property(x => x.Comment).IsRequired();
-        builder.Property(x => x.Rating).IsRequired();
+        builder.Property(x => x.Rating).IsRequired()
+            .HasConversion(ratingTypes => ratingTypes.Value, 
+                value => RatingTypes.FromValue(value));
     }
 }

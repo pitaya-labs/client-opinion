@@ -15,17 +15,19 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="ErrorOr" Version="1.3.0" />
       <PackageReference Include="MediatR" Version="12.1.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.13">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.13" />
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.10" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\ClientOpinion.Application\ClientOpinion.Application.csproj" />
+      <ProjectReference Include="..\ClientOpinion.Infrastructure\ClientOpinion.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
